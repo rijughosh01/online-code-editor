@@ -1,0 +1,59 @@
+.theme-material {
+  --background-color: #2d2d2d;
+  --text-color: #ffffff;
+  --header-background: #333333;
+  --header-text-color: #ffffff;
+  --control-background: #444444;
+  --control-text-color: #ffffff;
+}
+
+.theme-dracula {
+  --background-color: #282a36;
+  --text-color: #f8f8f2;
+  --header-background: #44475a;
+  --header-text-color: #f8f8f2;
+  --control-background: #6272a4;
+  --control-text-color: #ffffff;
+}
+
+.theme-monokai {
+  --background-color: #272822;
+  --text-color: #f8f8f2;
+  --header-background: #49483e;
+  --header-text-color: #f8f8f2;
+  --control-background: #75715e;
+  --control-text-color: #ffffff;
+}
+
+.theme-light {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --header-background: #f4f4f9;
+  --header-text-color: #333333;
+  --control-background: #e0e0e0;
+  --control-text-color: #000000;
+}
+
+.App {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+header {
+  background-color: var(--header-background);
+  color: var(--header-text-color);
+}
+
+.controls {
+  background-color: var(--control-background);
+  color: var(--control-text-color);
+}
+
+.controls select,
+.controls button {
+  background-color: var(--control-background);
+  color: var(--control-text-color);
+}
