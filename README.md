@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Online Code Editor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive online code editor with support for HTML, CSS, and responsive design testing. The editor includes features like file management.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Getting Started
 
-### `npm start`
+### Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Make sure you have the following installed on your local development environment:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Node.js](https://nodejs.org/) (version 12 or higher)
+- [npm](https://www.npmjs.com/) (version 6 or higher)
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository:**
+   ```sh
+   https://github.com/rijughosh01/online-code-editor
+   ```
+2. **Install dependencies:**
 
-### `npm run build`
+   npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Start the development server:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Adding a New File**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Click the "Add New File" button in the file list.
+2. Enter the file name (e.g., index.html) and click "Create".
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Deleting a File**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Select the file you want to delete from the file list.
+2. Click the "Delete" button next to the file name.
 
-## Learn More
+**Saving Snippets**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Edit your code in the editor.
+2. Click the "Save Snippet" button to save your code snippets locally.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Changing Theme**
 
-### Code Splitting
+1. Select a theme from the "Theme" dropdown in the controls section.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Changing Mode**
 
-### Analyzing the Bundle Size
+1. Select a mode (HTML Mixed or CSS) from the "Mode" dropdown in the controls section.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Previewing on Different Devices**
 
-### Making a Progressive Web App
+1. Select a device (Desktop, Tablet, Mobile) from the "Device" dropdown in the controls section.
+2. The preview area will adjust to display your code on the selected device frame.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**License**
+This project is licensed under the MIT License.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+                                    😊
